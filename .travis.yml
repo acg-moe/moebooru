@@ -8,8 +8,8 @@ rvm:
 services:
 - memcached
 
-addons:
-  postgresql: 11
+#addons:
+#  postgresql: 11
 
 before_script:
 - sudo script/travis_prepare_db
