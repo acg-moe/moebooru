@@ -11,3 +11,4 @@
 #pg_ctlcluster 12 main reload
 
 psql --version
+echo 'select version()' | psql
